@@ -18,3 +18,12 @@ arr_f.shift
 #arr_b.unshift will require input, just like .push and will add the element to the beggining of the array. Our new array will be:
 # => arr_b = [false, true, false, false, true]
 arr_b.unshift false
+
+# 1. index positions are the exact position of an element in an array. Counting in programming starts with 0 so the first element in an array will be in index position 0. 
+
+# For example:
+# array = [1, 2, "yes", "no", true]
+
+# In index position 0, also noted as array[0], we have the integer 1.
+# In index position 2, also noted as array[2], we have the string "yes".
+# In index position 4, also noted as array [4], we have the boolean true.
