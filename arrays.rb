@@ -19,6 +19,8 @@ arr_f.shift
 # => arr_b = [false, true, false, false, true]
 arr_b.unshift false
 
+
+# INDEX POSITIONS
 # 1. index positions are the exact position of an element in an array. Counting in programming starts with 0 so the first element in an array will be in index position 0. 
 
 # For example:
@@ -27,3 +29,15 @@ arr_b.unshift false
 # In index position 0, also noted as array[0], we have the integer 1.
 # In index position 2, also noted as array[2], we have the string "yes".
 # In index position 4, also noted as array [4], we have the boolean true.
+
+# ANOTHER ARRAY METHOD
+# Another array method that can be used to add an element is .insert. It can also take a index value to let it know exactly where to insert it.
+
+# For example:
+# array = [4, 5, 2, 9, 6]
+
+# array.insert(2, 0)
+
+# The first value tells us which index position to put the second value in. So the method will put the integer 0 in index position 2. Our new array would be:
+
+# array = [4, 5, 0, 2, 9, 6]
